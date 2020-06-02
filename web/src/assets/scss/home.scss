@@ -1,0 +1,85 @@
+// swiper
+.pagination-home{
+    .swiper-pagination-bullet {
+        border-radius: 2px;
+        opacity: 1;
+        background: #fff;
+            &.swiper-pagination-bullet-active {
+                background: #4b67af;
+            }
+    }
+}   
+// end of swiper
+
+// nav-icons
+.nav-icons{
+    border-top: 1px solid #d4d9de;
+    border-bottom: 1px solid #d4d9de;
+    .nav-item{
+        width: 25%;
+        border-right: 1px solid #d4d9de;
+        &:nth-child(4n){
+            border-right: none;
+        }
+    }
+}
+
+.sprite{
+    background: url('../assets/index.png') no-repeat 0 0;
+    background-size: 28.8462rem;
+    display: inline-block;
+    &.sprite-disclose{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 63.546% 15.517%;
+    }
+    &.sprite-story{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 90.483% 15.614%;
+    }
+    &.sprite-shopping{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 36.746% 0.924%;
+    }
+    &.sprite-experience{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 10.408% 15.517%;
+    }
+    &.sprite-new{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 89.733% 1.266%;
+    }
+    &.sprite-glory{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 36.467% 15.287%;
+    }
+    &.sprite-simulation{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 10.156% 0.813%;
+    }
+    &.sprite-campsite{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 63.3% 1.2%;
+    }
+    &.sprite-official{
+        width: 1.7692rem;
+        height: 1.5385rem;
+        background-position: 0 96.207%;
+    }
+    &.sprite-shouqi{
+        width: 0.7692rem;
+        height: 0.7692rem;
+        background-position: 38.577% 52.076%;
+    }
+}
+
+//end of nav-icons
+
+
